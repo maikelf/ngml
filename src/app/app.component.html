@@ -1,3 +1,12 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-nav-bar></app-nav-bar>
-<router-outlet></router-outlet>
+<div class="container-fluid top60">
+    <div class="row">
+        <div class="ml-sidebar">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div id="main">
+            <router-outlet></router-outlet>   
+        </div>
+    </div>
+</div>
