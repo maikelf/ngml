@@ -1,0 +1,9 @@
+.side-menu-item {
+    padding: 20px 0px;
+}
+.side-menu-item:first-child {
+    margin-top: 0px;
+}
+.side-menu-item:hover, .link-activate {
+    background-color: #86C937;
+}
