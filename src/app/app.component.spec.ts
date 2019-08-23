@@ -9,6 +9,12 @@ import { AppComponent } from './app.component';
 })
 export class AppNavBarMockComponent {}
 
+@Component({
+  selector: 'app-sidebar',
+  template: ''
+})
+export class AppSidebarMockComponent {}
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -17,7 +23,8 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent,
-        AppNavBarMockComponent
+        AppNavBarMockComponent,
+        AppSidebarMockComponent
       ],
     }).compileComponents();
   }));
