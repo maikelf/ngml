@@ -1,0 +1,11 @@
+{
+  "/ml": {
+    "target": "http://192.168.1.119:8086",
+    "pathRewrite": {
+      "^/ml": ""
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
